@@ -13,7 +13,6 @@ This project automates the checkout process on Flipkart using Selenium WebDriver
 
 ## Tech Stack
 - **Language**: Java
-- **Testing Framework**: TestNG
 - **Automation Tool**: Selenium WebDriver
 - **Build Tool**: Maven
 
