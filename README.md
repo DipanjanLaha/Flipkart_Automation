@@ -13,7 +13,6 @@ This project automates the checkout process on Flipkart using Selenium WebDriver
 
 ## Tech Stack
 - **Language**: Java
-- **Testing Framework**: TestNG
 - **Automation Tool**: Selenium WebDriver
 - **Build Tool**: Maven
 
@@ -40,14 +39,14 @@ Ensure you have the following installed:
 ## Running the Tests
 The main test case is located in:
 ```
-src/test/java/com/flipkart/tests/secondTest.java
+src/test/java/com/flipkart/tests/FinalTest.java
 ```
 Run the test using Maven:
 ```sh
 mvn test
 ```
 
-Or run it directly in an IDE (e.g., IntelliJ, Eclipse) by executing `secondTest.java`.
+Or run it directly in an IDE (e.g., IntelliJ, Eclipse) by executing `FinalTest.java`.
 
 ## Test Flow
 1. Open **Flipkart**
@@ -57,16 +56,7 @@ Or run it directly in an IDE (e.g., IntelliJ, Eclipse) by executing `secondTest.
 5. Select payment method
 6. Place the order
 
-## Implicit Wait Handling
-The script includes an **implicit wait of 4 seconds**:
-```java
-driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4));
-```
-This ensures that elements are given enough time to load before actions are performed.
-
 ## Contributors
 - **Dipanjan Laha** ([@DipanjanLaha](https://github.com/DipanjanLaha))
 
-## License
-This project is open-source and available under the **MIT License**.
 
